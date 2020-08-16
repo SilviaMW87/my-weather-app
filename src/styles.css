@@ -1,3 +1,10 @@
+.col-12 {
+  font-size: 25px;
+  top: 150px;
+  left: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
 .col-3 {
   font-size: 25px;
   top: 30px;
