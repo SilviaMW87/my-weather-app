@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
 
-<head>
-  <title>Parcel Sandbox</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <meta charset="UTF-8" />
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <link rel="stylesheet" href="src/styles.css" />
-</head>
+  <body>
+    <div class="row">
+      <div class="col-3">
+        London
+      </div>
 
-<body>
-  <div class="row">
-    <div class="col-3">
-      London
-    </div>
+      <div class="col-3">
+        Rome
+      </div>
 
-    <div class="col-3">
-      Rome
-    </div>
+      <div class="col-3">
+        Paris
+      </div>
 
-    <div class="col-3">
-      Paris
+      <div class="col-3">
+        New York
+      </div>
     </div>
-
-    <div class="col-3">
-      New York
-    </div>
-  </div>
-  <script src="src/index.js"></script>
-  <form class="form-inline" id="search-form">
-    <div class="form-group mx-sm-3 mb-2">
-      <label for="inputCity" class="sr-only">Search city </label>
-      <input type="text" class="form-control" id="city-input" placeholder="Search city">
-    </div>
-    <span>
-      <button type="submit" class="btn btn-primary mb-2">Search</button>
-    </span>
-    <span>
-      <button type="submitLocation" class="submitLocation" id="submitLocation">current Location</button>
-    </span>
-  </form>
-  </br>
-  <div class="row">
-    <div class="col-6">
-      <div class="clearfix">
-        <img src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
+    <script src="src/index.js"></script>
+    <form class="form-inline" id="search-form">
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="inputCity" class="sr-only">Search city </label>
+        <input
+          type="text"
+          class="form-control"
+          id="city-input"
+          placeholder="Search city"
+        />
+      </div>
+      <span>
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+      </span>
+      <span>
+        <button
+          type="submitLocation"
+          class="submitLocation"
+          id="submitLocation"
+        >
+          current Location
+        </button>
+      </span>
+    </form>
+    <div class="row">
+      <div class="col-6">
+        <div class="clearfix">
+          <img
+          src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
           alt=rainy-emoji" class="weather-icon float-left" />
-        <div id="currentDate">
-          Thursday, 17:00
-        </div>
-        <div id="city">
-          Duesseldorf,
-        </div>
-        <div class="float-left">
-          <span class="temperature" id="temperature">19</span>
-          <span class="units">
-            <a href="#" id="celsius-link">°C</a> |
-            <a href="#" id="fahrenheit-link">°F</a>
-          </span>
+          <div id="currentDate">
+            Thursday, 17:00
+          </div>
+          <div id="city">
+            Duesseldorf,
+          </div>
+          <div class="float-left">
+            <span class="temperature" id="temperature">19</span>
+            <span class="units">
+              <a href="#" id="celsius-link">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
     <div class="row">
       <div class="col-2">
         <div class="card">
@@ -131,13 +145,18 @@
         </div>
       </div>
     </div>
-  <div class="row">
-  <div class="col-12">
-   <small>
-    <a href="https://github.com/SilviaMW87/my-weather-app" target="_blank">
-      Open-source code</a> "by Silvia Meyer-Wachsmuth"
-   </small>
+    <div class="row">
+      <div class="col-12">
+        <small>
+          <a
+            href="https://github.com/SilviaMW87/my-weather-app"
+            target="_blank"
+          >
+            Open-source code</a
+          >
+          "by Silvia Meyer-Wachsmuth"
+        </small>
+      </div>
     </div>
-  </div>
   </body>
 </html>
