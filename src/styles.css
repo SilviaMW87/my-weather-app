@@ -1,3 +1,11 @@
+.col-2 {
+  font-size: 25px;
+  top: 170px;
+  left: 220px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
 .col-3 {
   font-size: 25px;
   top: 30px;
@@ -62,18 +70,17 @@ button.submitLocation {
   line-height: 1.5;
   border-radius: 0.25rem;
   border-color: transparent;
-  box-sizing: border-box
-  transition: all 200ms ease;
+  box-sizing: border-box transition all 200ms ease;
   opacity: 1;
 }
 
-  button.submitLocation:hover {
-    cursor: pointer;
-    background: #0069D9;
-  }
+button.submitLocation:hover {
+  cursor: pointer;
+  background: #0069d9;
+}
 
-  .footer {
-      text-align: center;
-      box-sizing: border-box;
-      position: bottom;
-       }
+.footer {
+  text-align: center;
+  box-sizing: border-box;
+  position: bottom;
+}
