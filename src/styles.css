@@ -65,6 +65,7 @@ button.submitLocation {
   box-sizing: border-box
   transition: all 200ms ease;
   opacity: 1;
+}
 
   button.submitLocation:hover {
     cursor: pointer;
@@ -74,4 +75,6 @@ button.submitLocation {
   .footer {
       text-align: center;
       box-sizing: border-box;
+      position: bottom;
+      color: red;
   }
