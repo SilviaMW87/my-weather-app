@@ -1,6 +1,6 @@
 .weather-app {
-  max-width: 600px;
-  margin: 30 auto;
+  max-width: 1000px;
+  margin: 20 auto;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -23,6 +23,14 @@
 
 .col-4 {
   list-style: none;
+  box-sizing: border-box;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .col-6 {

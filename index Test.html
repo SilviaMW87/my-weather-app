@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
-        <div class="weater-app">
+        <div class="weather-app">
     <div class="row">
       <div class="col-3">
         London
@@ -58,6 +58,8 @@
         </button>
       </span>
     </form>
+
+
     <div class="row">
       <div class="col-4">
       <div class="clearfix">
@@ -65,9 +67,10 @@
             src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
             alt="rainy-emoji"
             class="weather-icon float-left"
+            id = "icon"
           />
-
-
+      </div>
+      </div>
 
 <div class="col-4">
   <ul>     
@@ -91,23 +94,28 @@
           </div>
           </li>
           </ul>
-    </div>
+        </div>
+
     <div class="col-4">
-<ul>
-  <li>
-Precipitation: 0%
+  <ul>
+    <li>
+    "Precipitation: "
+  <span id="precipitation">25%</span>
   </li>
-  <li>
-    Humidity: 73%
-  </li>
-  <li>
-    Wind: 2km/h
-  </li>
-</ul>
-</div>
-</div>
-</div>
+    <li>
+    "Humidity: 52%"
+    <span id="humidity"></span>
+      </li>
+    <li>
+    "Wind: 7km/h"
+    <span id="wind"></span>
+    </li>
+  </ul>
     </div>
+</div>
+
+
+
     <div class="row">
       <div class="col-2">
         <div class="card">
@@ -188,5 +196,6 @@ Precipitation: 0%
       </div>
     </div>
     </div>
+</div>
   </body>
 </html>
