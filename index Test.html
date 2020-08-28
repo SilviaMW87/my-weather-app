@@ -14,49 +14,34 @@
   </head>
 
   <body>
+    <script src="src/index.js"></script>
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-    <div class="row">
-      <div class="col-3">
-        London
-      </div>
-
-      <div class="col-3">
-        Rome
-      </div>
-
-      <div class="col-3">
-        Paris
-      </div>
-
-      <div class="col-3">
-        New York
-      </div>
-    </div>
-    <script src="src/index.js"></script>
     <form class="form-inline" id="search-form">
-      <div class="form-group mx-sm-3 mb-2">
-        <label for="inputCity" class="sr-only">Search city</label>
+<div class="row">
+  <div class="col-8">
         <input
           type="text"
           class="form-control"
+          autofocus="sr-only"
           id="city-input"
           placeholder="Search city"
         />
       </div>
-      <span>
+      <div class="col-2">
         <button type="submit" class="btn btn-primary mb-2">Search</button>
-      </span>
-      <span>
+      </div>
+      <div class="col-2">
         <button
           type="submitLocation"
           class="submitLocation"
           id="submitLocation"
         >
-          current Location
+          📍🌏
         </button>
-      </span>
+      </div>
+</div>
     </form>
 
 
@@ -196,6 +181,6 @@
       </div>
     </div>
     </div>
-</div>
+    </div>
   </body>
 </html>

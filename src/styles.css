@@ -1,6 +1,6 @@
 .weather-app {
   max-width: 1000px;
-  margin: 20 auto;
+  margin: 30 auto;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -11,13 +11,6 @@
   top: 240px;
   left: 20px;
   line-height: 20px;
-  font-weight: bold;
-}
-.col-3 {
-  font-size: 25px;
-  top: 30px;
-  left: 20px;
-  line-height: 30px;
   font-weight: bold;
 }
 
@@ -31,15 +24,6 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-}
-
-.col-6 {
-  position: relative;
-  font-size: 25px;
-  top: 100px;
-  left: 120px;
-  line-height: 30px;
-  font-weight: bold;
 }
 
 .form-group {
@@ -57,25 +41,39 @@
 
 .card-text,
 .card-title {
+  display: grid;
   text-align: center;
-  font-size: larger;
+  object-fit: cover;
+  font-size: medium;
 }
 
-.card {
+.card-body {
   display: grid;
-  top: 220px;
-  left: 50px;
-  width: auto;
+  top: 100px;
+  left: 40px;
+  width: fit-content;
+  height: fit-content;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
 
 .emoji {
-  text-align: center;
-  font-size: 60px;
+  display: grid;
+  font-size: 45px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
 
 .li {
   list-style: none;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 button.submitLocation {
