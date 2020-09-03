@@ -18,9 +18,9 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-    <form class="form-inline" id="search-form">
+    <form class="mb-3" id="search-form">
 <div class="row">
-  <div class="col-8">
+  <div class="col-6">
         <input
           type="text"
           class="form-control"
@@ -29,13 +29,13 @@
           placeholder="Search city"
         />
       </div>
-      <div class="col-2">
-        <button type="submit" class="btn btn-primary mb-2">Search</button>
+      <div class="col-3">
+        <button type="submit" class="btn btn-primary w-75">Search</button>
       </div>
-      <div class="col-2">
+      <div class="col-3">
         <button
           type="submitLocation"
-          class="submitLocation"
+          class="btn btn-primary w-60"
           id="submitLocation"
         >
           📍🌏
@@ -46,7 +46,7 @@
 
 
     <div class="row">
-      <div class="col-4">
+      <div class="col-4" id="weather-condition">
       <div class="clearfix">
             <img
             src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
@@ -56,8 +56,7 @@
           />
       </div>
       </div>
-
-<div class="col-4">
+<div class="col-4" id="weather-condition">
   <ul>     
    <li>
    <div id="city">
@@ -81,7 +80,7 @@
           </ul>
         </div>
 
-    <div class="col-4">
+    <div class="col-4" id="weather-condition">
   <ul>
     <li>
     "Precipitation: "
