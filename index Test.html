@@ -46,24 +46,25 @@
 
 
     <div class="row">
-      <div class="col-4" id="weather-condition">
+      <div class="col-4">
       <div class="clearfix">
             <img
             src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/cloud-with-rain.png"
             alt="rainy-emoji"
-            class="weather-icon float-left"
             id = "icon"
-          />
+            class="weather-icon float-left"
+            />
+            <div class="weather-icon float-left"></div>
+                  </div>
       </div>
-      </div>
-<div class="col-4" id="weather-condition">
+<div class="col-4">
   <ul>     
    <li>
    <div id="city">
      Duesseldorf,
    </div>
     </li>
-  <div id="currentDate">
+  <div id="date">
   <li>
             Thursday, 17:00
   </li>
@@ -72,7 +73,7 @@
           <div class="float-left">
             <span class="temperature" id="temperature">19</span>
             <span class="units">
-              <a href="#" id="celsius-link">°C</a> |
+              <a href="#" id="celsius-link" class="active">°C</a> |
               <a href="#" id="fahrenheit-link">°F</a>
             </span>
           </div>
@@ -80,25 +81,22 @@
           </ul>
         </div>
 
-    <div class="col-4" id="weather-condition">
+    <div class="col-4">
   <ul>
     <li>
-    "Precipitation: "
-  <span id="precipitation">25%</span>
+    Precipitation: 
+  <span id="precipitation">%</span>
   </li>
     <li>
-    "Humidity: 52%"
-    <span id="humidity"></span>
-      </li>
+    Humidity: <span id="humidity"></span>%</li>
     <li>
-    "Wind: 7km/h"
-    <span id="wind"></span>
+    Wind: <span id="wind"> km/h</span>
     </li>
   </ul>
     </div>
 </div>
 
-                  <div class="row weather-forecast">
+                  <div class="row weather-forecast" id=forecast>
                     <div class="col-2">
                       <h3>
                         Sun
@@ -109,7 +107,7 @@
                       </div>
                     </div>
                     <div class="col-2">
-                      <h3>
+                     <h3>
                         Mon
                       </h3>
                       <img src="https://www.iconspng.com/images/weather-icon-sunny/weather-icon-sunny.jpg" alt="" />

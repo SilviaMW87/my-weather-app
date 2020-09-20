@@ -18,17 +18,21 @@
 
 .col-12 {
   font-size: 15px;
-  top: 240px;
+  position: bottom;
+  text-align: center;
   left: 20px;
   line-height: 20px;
   font-weight: bold;
 }
 
+.condition {
+  list-style-type: none;
+}
+
 .col-4 {
-  list-style-type: circle;
+  list-style: none;
   box-sizing: border-box;
   display: block;
-  list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -65,12 +69,12 @@
 }
 
 .icon {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   margin-right: 10px;
 }
 
-img {
+.img {
   vertical-align: middle;
   border-style: none;
 }
@@ -112,10 +116,4 @@ button.submitLocation:hover {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-}
-
-.footer {
-  text-align: center;
-  box-sizing: border-box;
-  position: bottom;
 }
