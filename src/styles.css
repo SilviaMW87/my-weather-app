@@ -16,7 +16,7 @@ body {
   position: bottom;
   text-align: center;
   top: 70px;
-  left: 20px;
+  left: 35px;
   line-height: 20px;
   font-weight: bold;
 }
@@ -93,7 +93,7 @@ li:first-letter {
 }
 
 .weather-forecast h3 {
-  color: grey;
+  color: black;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
