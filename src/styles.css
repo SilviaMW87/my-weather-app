@@ -79,12 +79,6 @@ button.submitLocation:hover {
   background: #0069d9;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
 
 .overview {
   margin-bottom: 20px;
