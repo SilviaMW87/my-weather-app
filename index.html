@@ -15,46 +15,23 @@
 
   <body>
     <div class="container">
-    <div class="row">
-      <div class="col-3">
-        London
-      </div>
-
-      <div class="col-3">
-        Rome
-      </div>
-
-      <div class="col-3">
-        Paris
-      </div>
-
-      <div class="col-3">
-        New York
-      </div>
-    </div>
-    <script src="src/index.js"></script>
-    <form class="form-inline" id="search-form">
-      <div class="form-group mx-sm-3 mb-2">
-        <label for="inputCity" class="sr-only">Search city </label>
-        <input
-          type="text"
-          class="form-control"
-          id="city-input"
-          placeholder="Search city"
-        />
-      </div>
-      <span>
-        <button type="submit" class="btn btn-primary mb-2">Search</button>
-      </span>
-      <span>
-        <button
-          type="submitLocation"
-          class="submitLocation"
-          id="submitLocation"
-        >
-📍🌏        </button>
-      </span>
-    </form>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-6" id="search-bar">
+                <input type="search" placeholder="Search city.." class="form-control" id="city-input"
+                  autocomplete="off" />
+              </div>
+              <div class="col-3" id="search-bar">
+                <input type="submit" value="Search" class="btn btn-primary w-100" />
+              </div>
+              <div class="col-3" id="search-bar">
+                <button type="submitLocation" class="btn btn-primary w-60" id="submitLocation">
+                  📍🌏
+                </button>
+              </div>
+          </form>
     <div class="row">
       <div class="col-6">
         <div class="clearfix">
