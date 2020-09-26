@@ -59,7 +59,6 @@ li:first-letter {
 }
 
 
-
 button.submitLocation {
   display: block;
   margin: 0 auto;
@@ -85,6 +84,11 @@ button.submitLocation:hover {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.overview {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
