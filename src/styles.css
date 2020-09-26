@@ -122,6 +122,34 @@ button.submitLocation:hover {
   font-weight: 400;
 }
 
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+
+.weather-forecast {
+  margin-top: 10px;
+}
+
+.weather-forecast h3 {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 12px;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
 .weather-forecast-temperature {
   text-align: center;
   color: rgb(135, 135, 135);
